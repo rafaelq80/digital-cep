@@ -1,0 +1,22 @@
+{
+    "name": "rafaelq80/digital-cep",
+    "description": "Busca de CEP online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Queiroz",
+            "email": "rafaelproinfo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "rafaelq80\\digitalcep\\": "src/"
+        }
+    }
+}
