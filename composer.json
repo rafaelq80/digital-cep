@@ -18,5 +18,8 @@
         "psr-4": {
             "rafaelq80\\digitalcep\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
