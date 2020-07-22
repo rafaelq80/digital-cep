@@ -6,6 +6,6 @@ use rafaelq80\digitalcep\Search;
 
 $busca = new Search;
 
-$resultado = $busca->getAddressFromZipcode('01001000');
+$resultado = $busca->getAddressFromZipcode('03360000');
 
 print_r($resultado);
